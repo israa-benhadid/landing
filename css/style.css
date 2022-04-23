@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+body{
+	font-family: 'EB Garamond', serif;
+	font-size: 20px;
+	margin: 0px;
+}
+
+h1, h2, h3{
+	font-family: 'EB Garamond', serif;
+	font-weight: bold;	
+}
+
+a{
+	text-decoration: none;
+	color: #505D8E;
+}
+
+a:hover {
+	color: #232647;
+}
+
+@media (max-width: 760px) {
+	.cards {
+		width: 500px;
+	}
+}
+
+@media (max-width: 550px) {
+	.cards {
+		width: 400px;
+	}
+}
